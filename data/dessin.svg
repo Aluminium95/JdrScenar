@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="dessin.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.81956396"
+     inkscape:cx="106.49085"
+     inkscape:cy="518.35117"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1022"
+     inkscape:window-height="747"
+     inkscape:window-x="0"
+     inkscape:window-y="19"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="62.857143"
+       y="-61.923531"
+       id="text2985"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="62.857143"
+         y="-61.923531"
+         id="tspan2989" /></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#0000ff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;opacity:0.47463768000000001"
+       id="path2993"
+       sodipodi:cx="-152.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:rx="172.85715"
+       sodipodi:ry="172.85715"
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/blue.png"
+       inkscape:export-xdpi="13.016528"
+       inkscape:export-ydpi="13.016528" />
+    <path
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       sodipodi:ry="172.85715"
+       sodipodi:rx="172.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:cx="-152.85715"
+       id="path3763"
+       style="opacity:0.47463768;fill:#bebebe;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       sodipodi:type="arc"
+       transform="matrix(0.71900827,0,0,0.71900827,-42.951594,72.918768)"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/blue.png"
+       inkscape:export-xdpi="13.016528"
+       inkscape:export-ydpi="13.016528" />
+    <path
+       transform="matrix(0.47107439,0,0,0.47107439,-80.850059,137.25886)"
+       sodipodi:type="arc"
+       style="opacity:0.47463768000000001;fill:#1600ff;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="path3765"
+       sodipodi:cx="-152.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:rx="172.85715"
+       sodipodi:ry="172.85715"
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/blue.png"
+       inkscape:export-xdpi="13.016528"
+       inkscape:export-ydpi="13.016528" />
+    <path
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       sodipodi:ry="172.85715"
+       sodipodi:rx="172.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:cx="-152.85715"
+       id="path3767"
+       style="opacity:0.47463768000000001;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       sodipodi:type="arc"
+       transform="translate(0,411.42857)"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/red.png"
+       inkscape:export-xdpi="13.016528"
+       inkscape:export-ydpi="13.016528" />
+    <path
+       transform="matrix(0.71900827,0,0,0.71900827,-42.951594,484.34734)"
+       sodipodi:type="arc"
+       style="opacity:0.47463768;fill:#bebebe;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="path3769"
+       sodipodi:cx="-152.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:rx="172.85715"
+       sodipodi:ry="172.85715"
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/red.png"
+       inkscape:export-xdpi="13.016528"
+       inkscape:export-ydpi="13.016528" />
+    <path
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       sodipodi:ry="172.85715"
+       sodipodi:rx="172.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:cx="-152.85715"
+       id="path3771"
+       style="opacity:0.47463768000000001;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       sodipodi:type="arc"
+       transform="matrix(0.47107439,0,0,0.47107439,-80.850059,548.68743)"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/red.png"
+       inkscape:export-xdpi="13.016528"
+       inkscape:export-ydpi="13.016528" />
+    <path
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       sodipodi:ry="172.85715"
+       sodipodi:rx="172.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:cx="-152.85715"
+       id="path3775"
+       style="opacity:0.47463768000000001;fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       sodipodi:type="arc"
+       transform="translate(537.14286,-2.8571429)"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/green.png"
+       inkscape:export-xdpi="13"
+       inkscape:export-ydpi="13" />
+    <path
+       transform="matrix(0.71900827,0,0,0.71900827,494.19126,70.061625)"
+       sodipodi:type="arc"
+       style="opacity:0.47463768;fill:#bebebe;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="path3777"
+       sodipodi:cx="-152.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:rx="172.85715"
+       sodipodi:ry="172.85715"
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/green.png"
+       inkscape:export-xdpi="13"
+       inkscape:export-ydpi="13" />
+    <path
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       sodipodi:ry="172.85715"
+       sodipodi:rx="172.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:cx="-152.85715"
+       id="path3779"
+       style="opacity:0.47463768000000001;fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       sodipodi:type="arc"
+       transform="matrix(0.47107439,0,0,0.47107439,456.2928,134.40172)"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/green.png"
+       inkscape:export-xdpi="13"
+       inkscape:export-ydpi="13" />
+    <path
+       transform="translate(531.42857,405.71429)"
+       sodipodi:type="arc"
+       style="opacity:0.47463768000000001;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="path3781"
+       sodipodi:cx="-152.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:rx="172.85715"
+       sodipodi:ry="172.85715"
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/yellow.png"
+       inkscape:export-xdpi="13"
+       inkscape:export-ydpi="13" />
+    <path
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       sodipodi:ry="172.85715"
+       sodipodi:rx="172.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:cx="-152.85715"
+       id="path3783"
+       style="opacity:0.47463768;fill:#bebebe;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       sodipodi:type="arc"
+       transform="matrix(0.71900827,0,0,0.71900827,488.47697,478.63305)"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/yellow.png"
+       inkscape:export-xdpi="13"
+       inkscape:export-ydpi="13" />
+    <path
+       transform="matrix(0.47107439,0,0,0.47107439,450.57851,542.97315)"
+       sodipodi:type="arc"
+       style="opacity:0.47463768000000001;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="path3785"
+       sodipodi:cx="-152.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:rx="172.85715"
+       sodipodi:ry="172.85715"
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/yellow.png"
+       inkscape:export-xdpi="13"
+       inkscape:export-ydpi="13" />
+    <path
+       transform="translate(1074.2857,-8.5714286)"
+       sodipodi:type="arc"
+       style="opacity:0.47463768000000001;fill:#8800aa;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="path3787"
+       sodipodi:cx="-152.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:rx="172.85715"
+       sodipodi:ry="172.85715"
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/violet.png"
+       inkscape:export-xdpi="13"
+       inkscape:export-ydpi="13" />
+    <path
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       sodipodi:ry="172.85715"
+       sodipodi:rx="172.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:cx="-152.85715"
+       id="path3789"
+       style="opacity:0.47463768;fill:#bebebe;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       sodipodi:type="arc"
+       transform="matrix(0.71900827,0,0,0.71900827,1031.3341,64.347339)"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/violet.png"
+       inkscape:export-xdpi="13"
+       inkscape:export-ydpi="13" />
+    <path
+       transform="matrix(0.47107439,0,0,0.47107439,993.43566,128.68743)"
+       sodipodi:type="arc"
+       style="opacity:0.47463768000000001;fill:#aa00d4;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="path3791"
+       sodipodi:cx="-152.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:rx="172.85715"
+       sodipodi:ry="172.85715"
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/violet.png"
+       inkscape:export-xdpi="13"
+       inkscape:export-ydpi="13" />
+    <path
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       sodipodi:ry="172.85715"
+       sodipodi:rx="172.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:cx="-152.85715"
+       id="path3793"
+       style="opacity:0.47463768000000001;fill:#ff2a7f;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       sodipodi:type="arc"
+       transform="translate(1085.7143,402.85714)"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/pink.png"
+       inkscape:export-xdpi="13"
+       inkscape:export-ydpi="13" />
+    <path
+       transform="matrix(0.71900827,0,0,0.71900827,1042.7627,475.77591)"
+       sodipodi:type="arc"
+       style="opacity:0.47463768;fill:#bebebe;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="path3795"
+       sodipodi:cx="-152.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:rx="172.85715"
+       sodipodi:ry="172.85715"
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/pink.png"
+       inkscape:export-xdpi="13"
+       inkscape:export-ydpi="13" />
+    <path
+       d="m 20,259.50504 a 172.85715,172.85715 0 1 1 -345.71429,0 172.85715,172.85715 0 1 1 345.71429,0 z"
+       sodipodi:ry="172.85715"
+       sodipodi:rx="172.85715"
+       sodipodi:cy="259.50504"
+       sodipodi:cx="-152.85715"
+       id="path3797"
+       style="opacity:0.47463768000000001;fill:#ff0066;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       sodipodi:type="arc"
+       transform="matrix(0.47107439,0,0,0.47107439,1004.8642,540.116)"
+       inkscape:export-filename="/home/aluminium95/Code/Vala/JdrScenar/data/pink.png"
+       inkscape:export-xdpi="13"
+       inkscape:export-ydpi="13" />
+  </g>
+</svg>
