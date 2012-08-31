@@ -19,19 +19,19 @@ utiliser une représentation JSON variable (avec création de champs
 
 ## Améliorations  
 
-	* Amélioration des graphismes de la scène Clutter
-	* Finition de l'interface GTK
-	* Création des fonctions sauvegarde/chargement
-	* Création de réponses sonores aux actions 
+* Amélioration des graphismes de la scène Clutter
+* Finition de l'interface GTK
+* Création des fonctions sauvegarde/chargement
+* Création de réponses sonores aux actions 
 
 ## Changement de fonctionnement
 
-	* Passage des `Clutter.Actor.animate` vers les `Clutter.Transition`
-	* Meilleure séparation Vue/Modèle :
-		* Suppression du `weak Jdr.View.Node?` dans les `Jdr.Model.Node`
-		* Changement de `weak Jdr.Model.Node?` en `weak Jdr.Model.Node` pour les `Jdr.View.Node`
-			Car sans modèle, la vue n'a aucun sens, de plus il faut synchroniser 
-			la destruction d'une autre façon que celle utilisée actuellement ... 
+* Passage des `Clutter.Actor.animate` vers les `Clutter.Transition`
+* Meilleure séparation Vue/Modèle :
+	* Suppression du `weak Jdr.View.Node?` dans les `Jdr.Model.Node`
+	* Changement de `weak Jdr.Model.Node?` en `weak Jdr.Model.Node` pour les `Jdr.View.Node`
+		Car sans modèle, la vue n'a aucun sens, de plus il faut synchroniser 
+		la destruction d'une autre façon que celle utilisée actuellement ... 
 		
 
 
