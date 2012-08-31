@@ -17,6 +17,10 @@ namespace Jdr.Model {
 			this.root_node.deletedNode.connect (on_node_deleted);
 		}
 		
+		/**
+		 * Gestion infinie des signaux des nodes 
+		 * (chaque création prépare la suivante)
+		 */
 		private void on_node_added (Node n) {
 			if (this.profondeur < n.rang) {
 				this.profondeur = n.rang;
@@ -27,8 +31,12 @@ namespace Jdr.Model {
 			n.deletedNode.connect (on_node_deleted);
 		}
 		
+		/**
+		 * TODO: Ajouter la logique de restriction de la profondeur 
+		 * de l'arbre
+		 */
 		private void on_node_deleted (Node n) {
-			stdout.printf ("Node deleted\n");
+			// stdout.printf ("Node deleted\n");
 			/*nodeDeleted (n.view);
 			
 			if (n.left != null) {

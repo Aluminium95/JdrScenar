@@ -3,6 +3,7 @@ using GLib;
 namespace Jdr.Model {
 	/**
 	 * Type du choix à faire
+	 *  	Inutile pour le moment ... 
 	 */
 	public enum NodeType {
 		PRINCIPAL,
@@ -16,6 +17,7 @@ namespace Jdr.Model {
 	 * 		CHAOTIQUE / LOYAL / STRICT => fort
 	 * Exemple : 
 	 *	 	CHAOTIQUE & NEUTRE = 0x13
+	 * 		Inutile pour l'instant 
 	 */
 	public enum NodeInfluence {
 		RIEN = 0x00,
@@ -29,7 +31,7 @@ namespace Jdr.Model {
 	
 	public class Node : GLib.Object {
 		
-		public weak Jdr.View.Node? view;
+		public weak Jdr.View.Node? view; // À supprimer 
 		
 		public signal void setLeftNode (Node n);
 		public signal void setRightNode (Node n);
@@ -41,18 +43,33 @@ namespace Jdr.Model {
 		private Node? _left = null;
 		private Node? _right = null;
 		
-		public int rang;
+		public int rang { get; private set; }
 		
+		/**
+		 * Lien faible vers le parent
+		 * 
+		 * (définit le rang automatiquement à partir du parent)
+		 */
 		public weak Node? parent {
 			get { return _parent; }
 			set { this.rang = value.rang + 1; this._parent = value; }
 		}
 		
+		/**
+		 * Définit le node de gauche (émet le signal setLeftNode)
+		 * 
+		 * S'ajoute automatiquement comme parent de ce node
+		 */
 		public Node? left {
 			get { return _left; }
 			set { _left = value; _left.parent = this; setLeftNode (value); }
 		}
 		
+		/**
+		 * Définit le node de droite (émet le signal setRightNode)
+		 * 
+		 * S'ajoute automatiquement comme parent de ce node
+		 */
 		public Node? right {
 			get { return _right; }
 			set {  _right = value; _right.parent = this; setRightNode (value); }
@@ -63,17 +80,35 @@ namespace Jdr.Model {
 		public string declencheur { get; set; }
 		public NodeType type;
 		public NodeInfluence influence;
-				
+		
+		/**
+		 * Crée un node
+		 */
 		public Node () {
 			
 		}
-		
+		/**
+		 * Crée un node
+		 * 
+		 * @n: parent du node
+		 */
 		public Node.with_parent (Node n) {
 			this.parent = n;
 			this.rang = this.parent.rang + 1;
 		}
 		
+		/**
+		 * Destructeur du Node
+		 */
 		~Node () {
+			/*
+			 * Il faut changer ça !
+			 * 
+			 * On vérifie qu'il existe une vue,
+			 * Si oui on demande si elle possède un parent
+			 * Si oui on supprime la vue du parent
+			 *  (entrainant sa destruction)
+			 */
 			if (this.view != null && this.view is Clutter.Actor) {
 				var p = this.view.get_parent ();
 				if (p != null) {
@@ -82,11 +117,27 @@ namespace Jdr.Model {
 			}
 		}
 		
+		/**
+		 * Supprime la branche de gauche
+		 */
 		public void delete_left () {
+			/*
+			 * Destruction de la référence 
+			 * vers le node suivant,
+			 * entrainant sa destruction (en chaîne)
+			 */
 			this._left = null;
 		}
 		
+		/**
+		 * Supprime la branche de droite
+		 */
 		public void delete_right () {
+			/*
+			 * Destruction de la référence 
+			 * vers le node suivant,
+			 * entrainant sa destruction (en chaîne)
+			 */
 			this._right = null;
 		}
 	}

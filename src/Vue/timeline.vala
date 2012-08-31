@@ -47,6 +47,9 @@ namespace Jdr.View {
 		
 		/**
 		 * Repositionne les enfants 
+		 * 
+		 * Changer pour créer une liste spéciale d'enfants Nodes ...
+		 * (permettre la gestion « normale » des autres enfants)
 		 */
 		public override void allocate (ActorBox box, AllocationFlags flags) {
 			base.allocate (box, flags);
@@ -71,7 +74,7 @@ namespace Jdr.View {
 			disp_node.set_reactive (true);
 			var c_action = new ClickAction ();
 			c_action.clicked.connect ((actor) => {
-				stdout.printf ("actor clicked ... \n");
+				// stdout.printf ("actor clicked ... \n");
 				nodeClicked (actor as Jdr.View.Node);
 			});
 			

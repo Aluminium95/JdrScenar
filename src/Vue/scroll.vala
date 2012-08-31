@@ -20,9 +20,16 @@ namespace Jdr.View {
 		
 		private weak Jdr.View.Node? current;
 		
+		/**
+		 * Change l'affichage des boutons en fonction
+		 * du node sélectionné (changer le nom... il est trompeur)
+		 * 
+		 * C'est à dire masque les fonctions inutilisables 
+		 * Ex: supprimer à gauche quand il n'y à rien à gauche ... 
+		 */
 		public void move_buttons (Jdr.View.Node n) {
 			this.current = n;
-			stdout.printf ("Node (%f,%f)\n", n.x, n.y);
+			// stdout.printf ("Node (%f,%f)\n", n.x, n.y);
 			
 			if (this.current.model.parent == null) {
 				button_next_parent.animate (AnimationMode.EASE_OUT_CUBIC, 1000,
@@ -87,6 +94,9 @@ namespace Jdr.View {
 		
 		/**
 		 * Repositionne les enfants 
+		 * 
+		 * Certains en fonction du Node courant, 
+		 * d'autres en statique
 		 */
 		public override void allocate (ActorBox box, AllocationFlags flags) {
 			base.allocate (box, flags);
@@ -130,6 +140,12 @@ namespace Jdr.View {
 			
 			this.timeline.add_action (d_action);
 			
+			/*
+			 * Création des boutons
+			 * 
+			 * Code mooooooche
+			 * Utiliser ClutterScript !!!!!
+			 */
 			try {
 				button_first = new Texture.from_file ("/home/aluminium95/Code/Vala/JdrScenar/data/red.png");
 				button_first.set_reactive (true);
@@ -229,7 +245,10 @@ namespace Jdr.View {
 				
 				
 			} catch (Error e) {
-				stdout.printf ("euh ... pas d'images ... \n");
+				/*
+				 * Créer une bonne gestiondes images !
+				 */
+				// stdout.printf ("euh ... pas d'images ... \n");
 			}
 			
 		}

@@ -13,6 +13,11 @@ public class MyApp : Object {
 	private Jdr.Control.NodeEdition ctrl_node;
 	
 	private Jdr.View.Node _current;
+	
+	/**
+	 * Le Node sélectionné actuellement,
+	 * sa mise à jour met à jour les controleurs
+	 */
 	public Jdr.View.Node selected {
 		get { return _current; }
 		set {
@@ -28,6 +33,10 @@ public class MyApp : Object {
 		create_clutter_layout ();
 	}
 	
+	/**
+	 * Crée tout ce qui est dans la 
+	 * zone Clutter
+	 */
 	private void create_clutter_layout () {
 		this.st.set_layout_manager (new BoxLayout ());
 		
@@ -46,6 +55,9 @@ public class MyApp : Object {
 		this.st.show ();
 	}
 	
+	/**
+	 * 	Crée le layout gtk global et connecte ses actions
+	 */
 	private void create_gtk_layout () {
 		var builder = new Gtk.Builder ();
 		builder.add_from_file ("/home/aluminium95/Code/Vala/JdrScenar/data/main.ui");
@@ -104,6 +116,9 @@ public class MyApp : Object {
 		window.destroy.connect (() => {Gtk.main_quit (); });
 	}
 	
+	/**
+	 * Connecte les signaux du controleur timeline
+	 */
 	private void ctrl_timeline_signals () {
 		
 		
@@ -112,17 +127,28 @@ public class MyApp : Object {
 		});
 		
 		this.ctrl_time.changeCurrentNode.connect ((new_node) => {
-			stdout.printf ("Salut tout le monde \n");
+			// stdout.printf ("Salut tout le monde \n");
 			selected = new_node;
 		});
 	}
 	
+	/** 
+	 * ?
+	 */
 	private void update_infos () {
 		
 	}
 	
+	/**
+	 * Fonction qui crée un arbre de démonstration ... 
+	 */
 	private void create_tree () {
 		var node = ctrl_time.model.root_node;
+		
+		/*
+		 * Peut-être qu'une API avec des fonctions 
+		 * comme node.set_left () serait plus jolie ?
+		 */
 		
 		// Sample tree ... Créer un constructeur depuis un fichier !
 		node.left = new Jdr.Model.Node ();
@@ -151,6 +177,6 @@ public class MyApp : Object {
 				node.right.right.name = "Hey jude !";
 				// node.right.right.left = new Jdr.Model.Node ();
 				
-		// this.ctrl_time.draw_tree ();
+		// this.ctrl_time.draw_tree (); -- Obsolète 
 	}
 }
