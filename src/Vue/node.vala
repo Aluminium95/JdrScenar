@@ -14,6 +14,10 @@ namespace Jdr.View {
 	public class Node : Actor {
 		private weak Jdr.Model.Node? _model;
 		
+		/*
+		 * Gérer la déconnection du signal au 
+		 * changement de node 
+		 */
 		public weak Jdr.Model.Node? model {
 			get { return _model; }
 			set {
@@ -50,6 +54,24 @@ namespace Jdr.View {
 			this.add_child (text);
 			
 			this.node_color = NodeColor.BLUE;
+			
+			this.enter_event.connect (() => {
+				if (this._color == NodeColor.BLUE) {
+					this.text.animate (AnimationMode.EASE_OUT_CUBIC, 200,
+									"scale-x", 1.0, "opacity", 255);
+				}
+				
+				return true;
+			});
+			
+			this.leave_event.connect (() => {
+				if (this._color == NodeColor.BLUE) {
+					this.text.animate (AnimationMode.EASE_IN_CUBIC, 200,
+									"scale-x", 0, "opacity", 0);
+				}
+				
+				return true;
+			});
 		}
 		
 		public void change_color (NodeColor n) {
@@ -57,7 +79,7 @@ namespace Jdr.View {
 				this.text.animate (AnimationMode.EASE_OUT_CUBIC, 1000,
 									"scale-x", 1.0, "opacity", 255);
 			} else {
-				this.text.animate (AnimationMode.EASE_OUT_CUBIC, 1000,
+				this.text.animate (AnimationMode.EASE_IN_CUBIC, 1000,
 									"scale-x", 0.0, "opacity", 0);
 			}
 			
@@ -83,6 +105,7 @@ namespace Jdr.View {
 					break;
 			}
 			try {
+				this._color = n;
 				this.texture.set_from_file ("/home/aluminium95/Code/Vala/JdrScenar/data/" + c);
 			} catch (Error e) {
 				this.background_color = Color.from_string ("blue");
